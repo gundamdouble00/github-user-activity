@@ -64,7 +64,7 @@ func main() {
 	}
 
 	for i, activity := range activities {
-		fmt.Printf("\n--- Activity %v ---\n", i)
+		fmt.Printf("\n--- Activity %v ---\n", i+1)
 		fmt.Printf("a) Type of activity: %v\n", activity.Type)
 		fmt.Printf("b) Actor: %v\n", activity.Actor.Login)
 		fmt.Printf("c) URL of github accounnt: %v\n", activity.Actor.URL)
